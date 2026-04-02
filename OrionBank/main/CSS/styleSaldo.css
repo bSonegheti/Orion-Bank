@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1Saldo{
+    background-color: black;
+    padding: 45px;
+    border-radius: 35px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1Saldo p{
+    color: black;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+
+    text-align: start;
+}
+
+.styleSaldo-box1 ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.styleSaldo-box1 li{
+    margin: 10px;
+}
+.styleSaldo-box1 a{
+    align-items: center;
+
+    padding: 8px 2vw;
+    border-radius: 12px;
+    background-color: rgb(51, 51, 51);
+    border: 0;
+    color: white;
+}
+.styleSaldo-box1 button{
+    align-items: center;
+
+    padding: 8px 2vw;
+    border-radius: 12px;
+    background-color: rgb(51, 51, 51);
+    border: 0;
+    color: white;
+}

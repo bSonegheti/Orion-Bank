@@ -1,0 +1,129 @@
+/* HERO */
+.hero{
+    background: linear-gradient(180deg, #000000, #00101c);
+    padding: 80px 10%;
+}
+
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    color: #cfd8dc;
+    margin-bottom: 20px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary{
+    background: black;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-secondary{
+    background: transparent;
+    border: 1px solid #0a2540;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+/* VANTAGENS */
+.vantagens{
+    padding: 70px 10%;
+    background: #000;
+}
+
+.vantagens h2{
+    margin-bottom: 40px;
+}
+
+.vantagens-grid{
+    display: flex;
+    gap: 30px;
+}
+
+.vantagem{
+    background: #020b14;
+    padding: 25px;
+    border-radius: 12px;
+    width: 260px;
+    transition: 0.4s;
+}
+
+.vantagem:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,140,255,0.15);
+}
+
+.vantagem p{
+    color: #cfd8dc;
+}
+
+
+/* SERVIÇOS */
+.servicos{
+    padding: 70px 10%;
+    background: linear-gradient(180deg,#00101c,#001a2b);
+}
+
+.servicos h2{
+    margin-bottom: 40px;
+}
+
+.servicos-grid{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.servico{
+    background: #000;
+    padding: 30px;
+    border-radius: 14px;
+    width: 300px;
+    transition: .3s;
+}
+
+.servico:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0,140,255,0.15);
+}
+
+.servico p{
+    color: #cfd8dc;
+}
+
+
+/* CTA */
+.cta{
+    padding: 70px 10%;
+    background: #000;
+    text-align: center;
+}
+
+.cta h2{
+    margin-bottom: 10px;
+}
+
+.cta p{
+    color: #cfd8dc;
+    margin-bottom: 20px;
+}
+
+.cta a{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
